@@ -1,0 +1,421 @@
+@import "fonts";
+@import "_bootstrap";
+body {
+    background: #ffffff url(../img/terminal_background.jpg) no-repeat 50% 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "SimpleSans", Arial, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.2em;
+}
+
+.header {
+    background-color: #ffffff;
+    img {
+        margin: 20px 0 10px 20px;
+        max-height: 44px;
+    }
+    &.visible-phone {
+        img {
+            max-width: 46%;
+            margin: 20px 2% 0 2%;
+        }
+    }
+}
+
+.phone {
+    text-align: right;
+    padding: 20px 40px 0 0;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    color: #004165;
+    font-weight: bold;
+    .fd-mobile-icon {
+        font-weight: bold;
+        margin: 0px 15px 0 0;
+    }
+}
+
+.main-content {
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 4em;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 2.5em 0 3em 0;
+    h1,
+    h2,
+    p {
+        // background-color: #ffffff;
+        padding: 5px;
+        color: #ffffff;
+    }
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    border: none;
+    border-radius: 0;
+    width: 90%;
+    margin: 8px auto;
+    padding: 6px;
+    font-size: 1em;
+    color: #333333;
+}
+
+input[type="checkbox"] {
+    margin: 0 20px 0 0px;
+    width: 20px;
+    height: 20px;
+    background-image: none;
+    float: left;
+}
+
+.cbox {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    .text {
+        margin-left: 45px;
+        font-size: .9em;
+    }
+}
+
+form {
+    margin-top: 25px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #fb4f14;
+    border: none;
+    padding: 15px 50px 15px 15px;
+    color: #ffffff;
+    font-size: 1.6em;
+    background-image: url(https://www.polcard.pl/etc/designs/shared/fdms/libs/fdms-head/img/icon-link-arrow-white-25x9-right-align.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+label {
+    display: none;
+}
+
+.section-2 {
+    background-color: #ffffff;
+    color: #333333;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    h3 {
+        text-align: center;
+    }
+    .desc {
+        padding-top: 20px;
+    }
+    p {
+        text-align: justify;
+        font-size: 1.2em;
+        line-height: 1.25em;
+        margin-bottom: 20px;
+    }
+    .terminals img.term {
+        width: 75%;
+        max-width: 250px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .terminals img {
+        width: 90%;
+        max-width: 250px;
+        padding: 10px;
+    }
+}
+
+.section-3 {
+    background-color: #8a8c8e;
+    text-align: center;
+    font-size: 1.2em;
+    h2 {
+        margin-bottom: 1.3em;
+        text-align: center;
+    }
+}
+
+.section-4 {
+    background-color: #8a8c8e;
+    text-align: left;
+    font-size: 1.2em;
+    padding-top: 3.5em;
+    .bottom-sp {
+        padding-bottom: 2.5em;
+    }
+    .benefits {
+        .number {
+            background-color: $fd-yellow;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            padding: 10px 15px;
+            margin-left: -6%;
+        }
+        .icon {
+            font-size: 3.5em;
+            display: inline-block;
+            color: $fd-yellow;
+            margin-top: .15em;
+            background-color: #ffffff;
+            padding: 5%;
+            border: 2px solid $fd-yellow;
+            border-radius: 10px;
+        }
+        .bene_content {
+            margin: -3% 5% 0 13%;
+            line-height: 1em;
+        }
+    }
+}
+
+.section-5 {
+    background-color: #ffffff;
+    color: $fd-blue;
+    padding-bottom: 55px;
+    padding-top: 45px;
+    .quote {
+        color: #dcddde;
+        font-size: 3.5em;
+        margin-top: 30px;
+        text-align: right;
+    }
+    .middle {
+        margin-top: 5%;
+        h4 {
+            line-height: 1.3em;
+        }
+    }
+    h2 {
+        text-align: center;
+    }
+    .poczta {
+        margin-top: 30px;
+    }
+}
+
+.section-6 {
+    margin: 20px 0 0 0;
+    .button {
+        background-color: $fd-orange;
+        padding: 10px 10px;
+        color: #ffffff;
+        font-size: 1.3em;
+        white-space: nowrap;
+        margin-left: -25px;
+        &:hover {
+            text-decoration: none;
+        }
+        &:visited {
+            text-decoration: none;
+        }
+        &:active {
+            text-decoration: none;
+        }
+        &:focus {
+            text-decoration: none;
+        }
+        .fd-arrow-right-icon {
+            text-align: right;
+            font-size: .5em;
+            font-weight: 700;
+            padding-left: 20px;
+        }
+    }
+    .offer p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: .8em;
+    }
+}
+
+.top-sp {
+    padding-top: 40px;
+}
+
+.bottom-sp {
+    padding-bottom: 25px;
+}
+
+.partner {
+    img {
+        width: 90%;
+        margin: 5%;
+        background-color: #ffffff;
+        border-radius: 4px;
+        padding: 5%;
+    }
+}
+
+footer {
+    background-color: #ffffff;
+    color: #888888;
+    font-size: .75em;
+    line-height: 1.1em;
+    padding: 15px;
+    text-align: left;
+}
+
+@media (min-width: 980px) {
+    .subpage-footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        background: #ffffff url(../img/terminal_background.jpg) no-repeat 0% 10%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .phone {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background: #ffffff url(../img/terminal_background_mobile.jpg) no-repeat 0% 0%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .phone {
+        text-align: left;
+        font-size: 1.7em;
+    }
+    .header {
+        img {
+            max-width: 95%;
+            margin: 20px 2% 0 2%;
+        }
+    }
+    .section-2 {
+        .container {
+            margin: 40px 20px;
+            p {
+                text-align: left;
+            }
+        }
+        .terminals img.term {
+            max-width: 250px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .terminals img {
+            max-width: 250px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+    }
+    .section-4 {
+        .benefits {
+            .number { 
+                margin-left: 5px;
+            }
+            .bene_content {
+                margin-top: 15px;
+            }
+        }
+        .bottom-sp {
+            padding: 0;
+        }
+    }
+    .section-5 {
+        padding: 15px;
+    }
+}
+ 
+.lt-ie9 {
+    .main-content {
+        color: #FFFFFF;
+        background-color: #333333;
+        width: 70%;
+        margin: 4em auto;
+        h1 {
+            color: #FFFFFF;
+        }
+    }
+    label {
+        // float: left;
+        // text-align: left; 
+        margin-top: 2%;
+        display: inline-block;
+    }
+}
+
+// .lt-ie9 {
+// .container{
+// background-color: #333333;
+// width: 940px;
+// margin: auto;
+// padding: 20px;
+// }
+// .cbox{
+// width: 70%;
+// margin: auto;
+// }
+// form{
+// width: 70%;
+// margin: auto;
+// input[type="text"]{
+// width: 100%;
+// margin-bottom: 2%;
+// }
+// label{
+// float: left;
+// text-align: left;
+// margin-top: 2%;
+// display: inline-block;
+// }
+// .col-lg-6{
+// width: 46%;
+// float: left;
+// margin: 0 2%;
+// }
+// }
+// .col-xs-offset-2{
+// margin: 0;
+// }
+// .col-xs-4 {
+// width: 10%;
+// }
+// .col-xs-12{
+// width: 70%;
+// }
+// .section-2 {
+// .container{
+// background-color: #ffffff;
+// }
+// }
+// .footer{
+// background-color: #ffffff;
+// padding: 10px;
+// p{
+// font-size: .8em;
+// line-height: 1em;
+// color: #777777;
+// }
+// }
+// }

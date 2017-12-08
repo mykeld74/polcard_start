@@ -1,0 +1,110 @@
+@font-face{font-family:'SimpleSans';src:url('../fonts/simplesans-regular-webfont.eot');src:url('../fonts/simplesans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-regular-webfont.woff') format('woff'),url('../fonts/simplesans-regular-webfont.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'SimpleSansOblique';src:url('../fonts/simplesans-regularoblique-webfont.eot');src:url('../fonts/simplesans-regularoblique-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-regularoblique-webfont.woff') format('woff'),url('../fonts/simplesans-regularoblique-webfont.ttf') format('truetype');font-weight:normal;font-style:italic;}
+@font-face{font-family:'SimpleSansBold';src:url('../fonts/simplesans-bold-webfont.eot');src:url('../fonts/simplesans-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-bold-webfont.woff') format('woff'),url('../fonts/simplesans-bold-webfont.ttf') format('truetype');font-weight:700;font-style:normal;}
+@font-face{font-family:'SimpleSansBoldOblique';src:url('../fonts/simplesans-boldoblique-webfont.eot');src:url('../fonts/simplesans-boldoblique-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-boldoblique-webfont.woff') format('woff'),url('../fonts/simplesans-boldoblique-webfont.ttf') format('truetype');font-weight:700;font-style:italic;}
+@font-face{font-family:'SimpleSansMedium';src:url('../fonts/simplesans-medium-webfont.eot');src:url('../fonts/simplesans-medium-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-medium-webfont.woff') format('woff'),url('../fonts/simplesans-medium-webfont.ttf') format('truetype');font-weight:500;font-style:normal;}
+@font-face{font-family:'SimpleSansMediumOblique';src:url('../fonts/simplesans-mediumoblique-webfont.eot');src:url('../fonts/simplesans-mediumoblique-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-mediumoblique-webfont.woff') format('woff'),url('../fonts/simplesans-mediumoblique-webfont.ttf') format('truetype');font-weight:500;font-style:italic;}
+@font-face{font-family:'SimpleSansLight';src:url('../fonts/simplesans-light-webfont.eot');src:url('../fonts/simplesans-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-light-webfont.woff') format('woff'),url('../fonts/simplesans-light-webfont.ttf') format('truetype');font-weight:200;font-style:normal;}
+@font-face{font-family:'SimpleSansLightOblique';src:url('../fonts/simplesans-lightoblique-webfont.eot');src:url('../fonts/simplesans-lightoblique-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-lightoblique-webfont.woff') format('woff'),url('../fonts/simplesans-lightoblique-webfont.ttf') format('truetype');font-weight:200;font-style:italic;}
+@font-face{font-family:'SimpleSansBlack';src:url('../fonts/simplesans-black-webfont.eot');src:url('../fonts/simplesans-black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/simplesans-black-webfont.woff') format('woff'),url('../fonts/simplesans-black-webfont.ttf') format('truetype');font-weight:900;font-style:normal;}
+
+ @font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?i382u0');
+  src:url('../fonts/icomoon.eot?#iefixi382u0') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?i382u0') format('woff'),
+    url('../fonts/icomoon.ttf?i382u0') format('truetype'),
+    url('../fonts/icomoon.svg?i382u0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fd-"], [class*=" fd-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fd-quote-mark-icon:before {
+  content: "\e612";
+}
+
+.fd-about-icon:before {
+  content: "\e604";
+}
+
+.fd-currency-icon:before {
+  content: "\e611";
+}
+
+.fd-stopwatch-icon:before {
+  content: "\e610";
+}
+
+.fd-arrow-down-icon:before {
+  content: "\e60d";
+}
+
+.fd-arrow-left-icon:before {
+  content: "\e60e";
+}
+
+.fd-arrow-up-icon:before {
+  content: "\e60f";
+}
+
+.fd-arrow-right-icon:before {
+  content: "\e60c";
+}
+
+.fd-clover-icon:before {
+  content: "\e60b";
+}
+
+.fd-cart-icon:before {
+  content: "\e608";
+}
+
+.fd-terminal-icon:before {
+  content: "\e607";
+}
+
+.fd-analytics-icon:before {
+  content: "\e609";
+}
+
+.fd-credit-card-icon:before {
+  content: "\e60a";
+}
+
+.fd-all-icon:before {
+  content: "\e605";
+}
+
+.fd-all-topics-icon:before {
+  content: "\e606";
+}
+
+.fd-easy-icon:before {
+  content: "\e600";
+}
+
+.fd-fast-icon:before {
+  content: "\e601";
+}
+
+.fd-mobile-icon:before {
+  content: "\e602";
+}
+
+.fd-secure-icon:before {
+  content: "\e603";
+}
